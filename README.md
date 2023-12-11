@@ -56,25 +56,31 @@ EOF
 
 # Usage
 Search for "Note" or "Note Cloud" in the application menu and run it!
+
 ![](docs_src/appFinder.png)
 
 For the first start, please fill in the settings for owncloud-based storage server (the first 3 fields).
 You can set different channel name for different user or purpose in the same account on the same server without worrying about data conflict.
 If you mess up the settings at this time, you can still change it later.
+
 ![](docs_src/settings.png)
 
 After initialized the settings, a icon for note will show in the system tray (the first yellow icon).
+
 ![](docs_src/tray.png)
 
 Doing a right-click on the icon, a small menu is shown.
 Click `Quit` to close and terminate the whole app.
 Click `About` to view more information about this app.
+
 ![](docs_src/tray_menu.png)
 
 Check something important in the About.
+
 ![](docs_src/about.png)
 
 Doing a left-click on the icon, the main window is shown.
+
 ![](docs_src/tray.png)
 
 Here is the main window.
@@ -84,21 +90,25 @@ Click `Sync` to force a immediate note sync from cloud to local computer.
 Click `Settings` to change the settings for storage server and UI.
 In the middle and yellow area, your note is placed here.
 In the bottom, it's a status bar.
+
 ![](docs_src/view_not_init.png)
 
 Are you keep seeing the word "Syncing ......" in the note area?
 To initialize your note, please click `edit` first.
 Then, type something interesting text in the pop-ip window.
 Don't forget to click Save to upload your new note to the cloud storage.
+
 ![](docs_src/edit.png)
 
 Go back to the main window and check if the note is changed.
+
 ![](docs_src/view_okay.png)
 
 You can edit your note at different computers.
 The new content after edit is uploaded to the storage server immediately.
 The notes are synced (downloaed) from the storage server to the computers every minute automatically.
 To do a sync manually on the computer, you can click `Sync` in the main window.
+
 ![](docs_src/sync_okay.png)
 ![](docs_src/sync_failed.png)
 
